@@ -1,0 +1,68 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    /* BACKGROUND IMAGE crinkly paper or marble*/
+    /* max-width: 960px; */
+}
+
+.navbar {
+    max-height: 90px;
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #eeeeee;
+    color: rgb(82, 79, 79);
+    font-size: 1.2em;
+    border: 0;
+    background-color: #4AAAA5;
+}
+
+.navbar-brand {
+    float: left;
+    min-height: 55px;
+}
+
+/* keep the logo from being to large */
+.navbar-brand > img {
+    max-height: 90px;
+}
+
+h2 {
+    padding-left: 20px;
+    font-size: 40px;
+    color: #4AAAA5;
+    font-weight: bolder;
+}
+
+footer {
+    max-height: 75px;
+    border-top: solid #4AAAA5;
+    border-width: 8px;
+    background-color: gray;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+}
