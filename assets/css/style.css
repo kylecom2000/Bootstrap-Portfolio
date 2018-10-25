@@ -1,22 +1,53 @@
 body {
     font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ccdbaaf7bb352c17aaf967cf09c1285c&auto=format&fit=crop&w=2734&q=80);
     /* BACKGROUND IMAGE crinkly paper or marble*/
-    /* max-width: 960px; */
+
+}
+
+#header {
+    border-width: 8px;
+    border-bottom: solid gray;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 960px;
+}
+
+img {
+    max-width: 300px;
+    margin-left: 45px;
+}
+
+.carousel-caption {
+    max-width: 300px;
+    background-color: #4AAAA5;
+    width: 100%;
+    align-items: center;
+}
+
+.carousel-caption a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#bioPic {
+    max-width: 250px;
+    float: left;
+    margin-right: 20px;
 }
 
 .navbar {
     max-height: 90px;
     margin-bottom: 0;
     border-radius: 0;
-    background-color: #eeeeee;
-    color: rgb(82, 79, 79);
     font-size: 1.2em;
     border: 0;
-    background-color: #4AAAA5;
 }
 
 .navbar-brand {
-    float: left;
     min-height: 55px;
 }
 
@@ -26,7 +57,7 @@ body {
 }
 
 h2 {
-    padding-left: 20px;
+    /* padding-left: 20px; */
     font-size: 40px;
     color: #4AAAA5;
     font-weight: bolder;
@@ -42,27 +73,3 @@ footer {
     font-weight: bold;
 }
 
-
-
-
-
-/* MEDIA QUERIES */
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-
-}
-
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-
-}
-
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-
-}
-
-/* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
-
-}
