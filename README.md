@@ -1,4 +1,6 @@
 # Bootstrap-Portfolio
-## A portfolio/bio/contact site using bootstrap.
+## Portfolio
 
-* A link to the page can be found [here](https://kylecom2000.github.io/Bootstrap-Portfolio/).
+## [Kyle Bauer](https://kylecom2000.github.io/Bootstrap-Portfolio/)
+
+* Some examples of my work so far as a junior web developer.
