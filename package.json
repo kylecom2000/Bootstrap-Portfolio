@@ -1,0 +1,24 @@
+{
+  "name": "MainPortfolio",
+  "version": "1.0.0",
+  "description": "## [Kyle Bauer](https://kylecom2000.github.io/Bootstrap-Portfolio/)",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylecom2000/Bootstrap-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kylecom2000/Bootstrap-Portfolio/issues"
+  },
+  "homepage": "https://github.com/kylecom2000/Bootstrap-Portfolio#readme"
+}
