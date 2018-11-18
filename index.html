@@ -13,7 +13,7 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
         <!-- FONTAWESOME link in the future???? -->
         <!-- jQuery -->
-        <script src="node_modules/jquery/dist/jquery.js"integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <!-- Google Materialize -->
         <link rel="stylesheet" href="assets/css/materialize.css" media="screen,projection"/>
         
@@ -23,7 +23,80 @@
 
     </head>
     <body>
-  
-        <script type="text/javascript" src="assets/js/materialize.js"></script>
+
+            <ul id="slide-out" class="sidenav">
+                    <li><div class="user-view">
+                        <div class="background">
+                        <img src="images/office.jpg">
+                        </div>
+                        <a href="#user"><img class="circle" src="assets/images/KyleBauer.png"></a>
+                        <a href="#name"><span class="white-text name">Kyle Bauer</span></a>
+                        <a href="#email"><span class="white-text email">kbauertx@gmail.com</span></a>
+                    </div></li>
+                    <li><a href="#!"><i class="material-icons">cloud</i>Profile</a></li>
+                    <li><a class="waves-effect" href="#!">Portfolio</a></li>
+                    <li><div class="divider"></div></li>
+                    <li><a class="subheader">Subheader</a></li>
+                    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+                    <li><a href="#!"><i class="material-icons">cloud</i>Profile</a></li>
+                    <li><a class="waves-effect" href="#!">Portfolio</a></li>
+                    <li><div class="divider"></div></li>
+                    <li><a class="subheader">Social</a></li>
+                    <li><a href="#!"><i class="material-icons">cloud</i>Profile</a></li>
+                    <li><a href="#!"><i class="material-icons">cloud</i>Profile</a></li>
+                    <li><a href="#!"><i class="material-icons">cloud</i>Profile</a></li>
+                    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+                    </ul>
+                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                        
+            
+            <div class="parallax-container">
+                <div class="parallax"><img src="assets/images/01Background.jpg"></div>
+            </div>
+            <div class="section white">
+                <div class="row container">
+                    <h2 class="header">About Me</h2>
+                    <p class="grey-text text-darken-3 lighten-3">I am a U.S. Coast Guard Veteran with 10 years of experiance in IT Help Desk and a recent graduate of Texas A&M University-Corpus Christi with a BS in Psychology and a minor in Theatre.  I enjoy Dungeons & Dragons, throwing axes, and creating things.
+                    <br><br>
+                    I know the work I am putting into this coding bootcamp at UT Austin will eventually pay off and give me the tools and skills to be able to find a solution to every full stack web dev dilemma that I may come across.
+                    <br><br>
+                    Building an HTML/CSS webpage has proven to be difficult but has helped me grow as a web developer. The process works better if you look at it from top to bottom. 
+                    <br><br>
+                    My favorite quote is from Mark Twain in which he says, "Travel is fatal to predjudice, bigoty and narromindedness and many of our people need it sorely on these accounts. Broad, wholesome, charitable views of men and things cannot be aquired by vegitating on one little corner of the earth all one's lifetime."
+                    <br><br>
+                    I am now just filling this page with more words that are my own that aren't Lorem Ipsom, although I found some Samuel L. Jackson lorem ipsom earlier that was hilarious. There are some really great ones out there, but you can't beat the Star Wars ipsom. I like all of the "subreddits" of web development that I am discovering.
+                    <br><br>
+                    Speaking of other webdev stuff, my room mate sent me a couple of websites that gives a lot of practive for flex box with a video game feel to it. Typing code to eliminate zombies. Which I played way too long when I should've been working on this website. But I eventually got back around to it. My roommate gave me a few pointers and really helped me see a lot of things I wasn't seeing before. I reccomend, if you're going to go through a web dev bootcamp, to get a web dev room mate.  If you're still reading this then I hope something good happens to you today.</p>
+                </div>
+            </div>
+            <div class="parallax-container">
+                <div class="parallax"><img src="assets/images/CrystalCollector.png"></div>
+            </div>
+            <div class="section white">
+                <div class="row container">
+                    <h2 class="header">SECOND SECTION</h2>
+                    
+                        <div class="col">
+                            <img src="assets/images/CrystalCollector.png" alt="CrystalCollector" class="img-responsive">
+                            <div class="carousel-caption">
+                                <a href="https://kylecom2000.github.io/unit-4-game/"><h4>CrystalCollector</h4></a>
+                            </div>
+                        </div>
+                        
+                        <div class="col">
+                            <img src="assets/images/trivia.png" alt="Trivia Game" class="img-responsive">
+                            <div class="carousel-caption">
+                                <a href="https://kylecom2000.github.io/TriviaGame/"><h4>Trivia Game</h4></a>
+                            </div>
+                                
+                        </div>
+                </div>
+            </div>
+        
+
+
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script type="text/javascript" src="assets/js/app.js"></script>
     </body>
 </html>
