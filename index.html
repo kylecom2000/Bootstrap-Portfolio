@@ -11,7 +11,8 @@
         <link id="favicon" rel="icon" href="assets/images/favicon.ico" type="image/icon" sizes="8x8"/>
         <!-- Google Icon Fonts -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-        <!-- FONTAWESOME link in the future???? -->
+        <!-- FONTAWESOME -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <!-- Google Materialize -->
@@ -23,31 +24,40 @@
 
     </head>
     <body>
-
+        
             <ul id="slide-out" class="sidenav">
-                    <li><div class="user-view">
-                        <div class="background">
-                        <img src="images/office.jpg">
+                    <li>
+                        <div class="user-view">
+                            <div class="background">
+                                <img src="assets/images/kyleWall.png">
+                            </div>
+                            <a href="#user"><img class="circle" src="assets/images/kyleWall.png"></a>
+                            <a href="#name"><span class="white-text name">Kyle Bauer</span></a>
                         </div>
-                        <a href="#user"><img class="circle" src="assets/images/KyleBauer.png"></a>
-                        <a href="#name"><span class="white-text name">Kyle Bauer</span></a>
-                        <a href="#email"><span class="white-text email">kbauertx@gmail.com</span></a>
-                    </div></li>
+                    </li>
                     <li><a href="#!"><i class="material-icons">cloud</i>Profile</a></li>
-                    <li><a class="waves-effect" href="#!">Portfolio</a></li>
                     <li><div class="divider"></div></li>
-                    <li><a class="subheader">Subheader</a></li>
-                    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-                    <li><a href="#!"><i class="material-icons">cloud</i>Profile</a></li>
-                    <li><a class="waves-effect" href="#!">Portfolio</a></li>
+                    <li><a class="subheader">Experience</a></li>
+                    <li><a class="waves-effect" href="#!"><i class="material-icons">cloud</i>Education</a></li>
+                    <li><a class="waves-effect" href="#!"><i class="material-icons">cloud</i>Education</a></li>
+                    <li><a class="waves-effect" href="#!"><i class="material-icons">cloud</i>Portfolio</a></li>
                     <li><div class="divider"></div></li>
                     <li><a class="subheader">Social</a></li>
-                    <li><a href="#!"><i class="material-icons">cloud</i>Profile</a></li>
-                    <li><a href="#!"><i class="material-icons">cloud</i>Profile</a></li>
-                    <li><a href="#!"><i class="material-icons">cloud</i>Profile</a></li>
-                    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-                    </ul>
-                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <li><a class="waves-effect" href="https://github.com/kylecom2000" target="_blank"><i class="fab fa-github fa-2x fa-fw"></i>GitHub</a></li>
+                    <li><a class="waves-effect" href="https://www.linkedin.com/in/kyle-bauer-5a224529" target="_blank"><i class="fab fa-linkedin fa-2x fa-fw"></i>LinkedIn</a></li>
+                    <li><a class="waves-effect" href="https://www.instagram.com/kylecom2000/" target="_blank"><i class="fab fa-instagram fa-2x fa-fw"></i>Instagram</a></li>
+                    <li><a class="waves-effect" id="email-address"><i class="fas fa-at fa-2x fa-fw"></i>Copy Email Address</a></li>
+
+                </ul>
+        <div class="containter">
+            <div class="row">
+                <div class="col s3">
+                    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="large material-icons black-text">menu</i></a>
+                </div>
+                <div class="col s9">
+                    <h1 href="#">Kyle M. Bauer</h1>
+                </div>
+            </div>
                         
             
             <div class="parallax-container">
@@ -55,7 +65,7 @@
             </div>
             <div class="section white">
                 <div class="row container">
-                    <h2 class="header">About Me</h2>
+                    <h2 class="header center">About Me</h2>
                     <p class="grey-text text-darken-3 lighten-3">I am a U.S. Coast Guard Veteran with 10 years of experiance in IT Help Desk and a recent graduate of Texas A&M University-Corpus Christi with a BS in Psychology and a minor in Theatre.  I enjoy Dungeons & Dragons, throwing axes, and creating things.
                     <br><br>
                     I know the work I am putting into this coding bootcamp at UT Austin will eventually pay off and give me the tools and skills to be able to find a solution to every full stack web dev dilemma that I may come across.
@@ -73,26 +83,13 @@
                 <div class="parallax"><img src="assets/images/CrystalCollector.png"></div>
             </div>
             <div class="section white">
-                <div class="row container">
-                    <h2 class="header">SECOND SECTION</h2>
-                    
-                        <div class="col">
-                            <img src="assets/images/CrystalCollector.png" alt="CrystalCollector" class="img-responsive">
-                            <div class="carousel-caption">
-                                <a href="https://kylecom2000.github.io/unit-4-game/"><h4>CrystalCollector</h4></a>
-                            </div>
+                    <h2 class="header center">Portfolio</h2>
+                        <!-- <div class="carousel"> -->
+                            <a class="carousel-item" href="https://kylecom2000.github.io/unit-4-game/"><img src="assets/images/CrystalCollector.png" alt="CrystalCollector">CrystalCollector</a>
+                            <a class="carousel-item" href="https://kylecom2000.github.io/TriviaGame/"><img src="assets/images/trivia.png" alt="CrystalCollector">Trivia</a> 
                         </div>
-                        
-                        <div class="col">
-                            <img src="assets/images/trivia.png" alt="Trivia Game" class="img-responsive">
-                            <div class="carousel-caption">
-                                <a href="https://kylecom2000.github.io/TriviaGame/"><h4>Trivia Game</h4></a>
-                            </div>
-                                
-                        </div>
-                </div>
             </div>
-        
+        </div>
 
 
         

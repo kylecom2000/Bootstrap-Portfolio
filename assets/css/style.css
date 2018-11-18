@@ -15,3 +15,7 @@ nav {
 .parallax > img {
     max-width: 100%;
 }
+
+.icon  {
+    font-weight: 500px
+}
