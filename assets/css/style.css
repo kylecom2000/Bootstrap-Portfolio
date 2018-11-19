@@ -1,9 +1,4 @@
 body {
-    /* background-color: grey; */
-    /* font-family: 'Times New Roman', Times, serif; */
-    /* background-image: url("../images/01Background.jpg"); */
-    /* background-repeat: no-repeat; */
-    /* background-size: 100%; */
     font-family: 'Times New Roman', Times, serif
 }
 
@@ -16,24 +11,9 @@ body {
 .parallax > img {
     width: 500px;
 }
-/* .parallax-container .parallax img {
-    opacity: 0;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-  } */
-  
-
-/* .icon  {
-    font-weight: 500px
-} */
-
+#MyMenu {
+    z-index: 10;
+}
 h1 {
     text-align: center;
 }
@@ -46,9 +26,8 @@ h4 {
     max-height: 30px;
 }
 
-#top-bar {
-    /* background-color: grey; */
-    /* margin-bottom: 0px; */
+#beard {
+    margin-top: 10px;
 }
 
 th {
