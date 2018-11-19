@@ -1,21 +1,43 @@
 body {
+    /* background-color: grey; */
     /* font-family: 'Times New Roman', Times, serif; */
     /* background-image: url("../images/01Background.jpg"); */
     /* background-repeat: no-repeat; */
     /* background-size: 100%; */
+    font-family: 'Times New Roman', Times, serif
 }
 
 .brand-logo {
-    margin-left: 10px;
 }
-nav {
+/* nav {
     background-color: rgba(25, 167, 167, 0.53);
-}
+} */
 
 .parallax > img {
-    max-width: 100%;
+    max-width: 80%;
 }
 
-.icon  {
+/* .icon  {
     font-weight: 500px
+} */
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.header {
+    max-height: 30px;
+}
+
+#top-bar {
+    /* background-color: grey; */
+    /* margin-bottom: 0px; */
+}
+
+th {
+    font-weight: bold;
 }

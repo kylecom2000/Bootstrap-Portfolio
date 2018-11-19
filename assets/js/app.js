@@ -16,8 +16,9 @@
   $(document).ready(function(){
     $('.carousel').carousel();
     $('.sidenav').sidenav();
+    $('.slider').slider();
+    $('.collapsible').collapsible();
     $('.parallax').parallax();
-    $('.materialboxed').materialbox();
     
 
 
