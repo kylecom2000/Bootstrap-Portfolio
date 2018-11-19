@@ -14,22 +14,22 @@
   // });
 
   $(document).ready(function(){
-    $('.carousel').carousel();
     $('.sidenav').sidenav();
     $('.slider').slider();
     $('.collapsible').collapsible();
     $('.parallax').parallax();
+    $('.scrollspy').scrollSpy();
     
 
 
   // Copy my email address to clipboard so that address isn't on website.
-    $('#email-address').click(function(){
+    $('.email-address').click(function(){
       var email = "kbauertx@gmail.com"
       copyTextToClipboard(email);
     });
     
 
-    function copyTextToClipboard(text) {
+    function copyTextToClipboard(email) {
       var textArea = document.createElement("textarea");
 
       textArea.style.position = 'fixed';
@@ -42,7 +42,7 @@
       textArea.style.outline = 'none';
       textArea.style.boxShadow = 'none';
       textArea.style.background = 'transparent';
-      textArea.value = text;
+      textArea.value = email;
       document.body.appendChild(textArea);
       textArea.select();
       try {
@@ -55,5 +55,6 @@
       document.body.removeChild(textArea);
     }
     
-
   });
+
+
