@@ -14,11 +14,11 @@
   // });
 
   $(document).ready(function(){
-    $('.sidenav').sidenav();
     $('.slider').slider();
     $('.collapsible').collapsible();
     $('.parallax').parallax();
     $('.scrollspy').scrollSpy();
+    $('.sidenav').sidenav();
     
 
 
