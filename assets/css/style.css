@@ -46,17 +46,17 @@ th {
 }
 
 .btn {
-    background-color: grey;
+    background-color: grey !important;
 }
 
 .btn:hover {
-    background-color: darkgrey;
+    background-color: darkgrey !important;
 }
 
 .slider .indicators .indicator-item {
-    background-color: grey;
+    background-color: grey !important;
 }
 
 .slider .indicators .indicator-item.active {
-    background-color: black;
+    background-color: black !important;
 }
