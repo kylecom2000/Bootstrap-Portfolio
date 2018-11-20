@@ -2,20 +2,30 @@ body {
     font-family: 'Times New Roman', Times, serif
 }
 
-.brand-logo {
-}
-/* nav {
-    background-color: rgba(25, 167, 167, 0.53);
-} */
-
+/* Images within parallax get squished. Needed a fix. */
 .parallax > img {
     width: 500px;
+    object-fit: cover;
 }
+
+/* Menu hamburger doesn't work over parallax without a higher z-index, also wanted it to be fixed to top. */
 #MyMenu {
     z-index: 10;
+    position: fixed;
 }
+
 h1 {
     text-align: center;
+}
+
+.sliderImage {
+    opacity: 0.5;
+}
+
+/* Slider header */
+h3 {
+    /* font-size: larger; */
+    /* background-color: rgba(0, 0, 0, 0.555); */
 }
 
 h4 {
@@ -34,6 +44,24 @@ th {
     font-weight: bold;
 }
 
-#MyMenu {
-    position: fixed;
+#toast-container {
+    top: auto !important;
+    right: auto !important;
+    bottom: 7%;
+    left:15%;  
 }
+
+.btn {
+    background-color: grey;
+}
+
+.btn:hover {
+    background-color: darkgrey;
+}
+
+.slider .indicators .indicator-item {
+    background-color: grey;
+}
+.slider .indicators .indicator-item.active {
+    background-color: black;
+  }
