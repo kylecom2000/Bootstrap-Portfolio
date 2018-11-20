@@ -1,5 +1,5 @@
 body {
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* Images within parallax get squished. Needed a fix. */
@@ -56,6 +56,7 @@ th {
 .slider .indicators .indicator-item {
     background-color: grey;
 }
+
 .slider .indicators .indicator-item.active {
     background-color: black;
-  }
+}
