@@ -38,15 +38,24 @@
     }
     
     // Media queries
-    $(window).on('resize', function() {
+    $(window).on('resize',  function() {
+      mediaQuery();
+    });
+
+    function mediaQuery(){
       var win = $(this);
       if (win.width() > 600) {
-      	$('#hamburger').addClass('medium');
         $('#hamburger').removeClass('small');
+        $('#hamburger').addClass('medium');
+        $('#iconSkills i').removeClass('fa-lg')
+        $('#iconSkills i').addClass('fa-2x')
       } else {
         $('#hamburger').removeClass('medium');
         $('#hamburger').addClass('small');
+        $('#iconSkills i').removeClass('fa-2x')
+        $('#iconSkills i').addClass('fa-lg')
       }
-    });
+    }
 
+    mediaQuery();
   });
