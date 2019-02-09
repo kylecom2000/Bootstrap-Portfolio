@@ -1,22 +1,19 @@
   $(document).ready(function(){
+    // Materialize
     $('.slider').slider();
     $('.collapsible').collapsible();
     $('.parallax').parallax();
     $('.scrollspy').scrollSpy();
     $('.sidenav').sidenav();
-    
 
-
-  // Copy my email address to clipboard so that address isn't on website.
+    // Copy my email address to clipboard so that address isn't on website.
     $('.email-address').click(function(){
       var email = "kbauertx@gmail.com"
       copyTextToClipboard(email);
     });
-    
 
     function copyTextToClipboard(email) {
       var textArea = document.createElement("textarea");
-
       textArea.style.position = 'fixed';
       textArea.style.top = 0;
       textArea.style.left = 0;
@@ -40,6 +37,16 @@
       document.body.removeChild(textArea);
     }
     
+    // Media queries
+    $(window).on('resize', function() {
+      var win = $(this);
+      if (win.width() > 600) {
+      	$('#hamburger').addClass('medium');
+        $('#hamburger').removeClass('small');
+      } else {
+        $('#hamburger').removeClass('medium');
+        $('#hamburger').addClass('small');
+      }
+    });
+
   });
-
-
