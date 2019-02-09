@@ -47,13 +47,13 @@
       if (win.width() > 600) {
         $('#hamburger').removeClass('small');
         $('#hamburger').addClass('medium');
-        $('#iconSkills i').removeClass('fa-lg')
-        $('#iconSkills i').addClass('fa-2x')
+        $('#iconSkills i').removeClass('fa-lg');
+        $('#iconSkills i').addClass('fa-2x');
       } else {
         $('#hamburger').removeClass('medium');
         $('#hamburger').addClass('small');
-        $('#iconSkills i').removeClass('fa-2x')
-        $('#iconSkills i').addClass('fa-lg')
+        $('#iconSkills i').removeClass('fa-2x');
+        $('#iconSkills i').addClass('fa-lg');
       }
     }
 
