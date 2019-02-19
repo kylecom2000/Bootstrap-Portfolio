@@ -1,7 +1,7 @@
 # Main Portfolio
 ## Portfolio for Web Dev work.
 
-## [Kyle Bauer](https://kylecom2000.github.io/MainPortfolio/)
+## [Kyle Bauer](https://kylecom2000.github.io)
 
 * Some examples of my work so far as a junior web developer.
 
